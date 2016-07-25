@@ -1,0 +1,16 @@
+{
+  "name": "chrome-backspace",
+  "description": "Restore the chrome backspace button.",
+  "author": "Namit Juneja",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [
+      {
+        "matches": [ "<all_urls>"],
+        "all_frames": true,
+        "run_at": "document_start",
+        "js": ["content.js"]
+      }
+    ]
+  //"icons": { "16": "calculator-16.png", "128": "calculator-128.png" }
+}
