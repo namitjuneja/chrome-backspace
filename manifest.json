@@ -2,7 +2,7 @@
   "name": "Go back with backspace",
   "description": "Restore the backspace key shortcut to navigate to the previous page.",
   "author": "Namit Juneja",
-  "version": "0.2",
+  "version": "0.3",
   "manifest_version": 2,
   "minimum_chrome_version": "52",
   "content_scripts": [
